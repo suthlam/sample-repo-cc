@@ -11,7 +11,7 @@ library(ggplot2)
 library(cowplot)
 library(RColorBrewer)
 
-indir1 <- "C:/Users/valky/OneDrive - UC San Diego/Documents/PostDoc/Tarik_Benmarhnia/Mis"
+indir1 <- "C:/Users/valky/OneDrive - UC San Diego//Tarik_Benmarhnia/Mis" #different working directory
 
 if (!dir.exists(file.path(indir1, "figures"))) dir.create(file.path(indir1, "figures"))
 
