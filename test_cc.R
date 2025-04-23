@@ -11,9 +11,7 @@ library(ggplot2)
 library(cowplot)
 library(RColorBrewer)
 
-indir1 <- "C:/Users/valky/OneDrive - UC San Diego/Documents/PostDoc/Tarik_Benmarhnia/Mis"
-
-if (!dir.exists(file.path(indir1, "figures"))) dir.create(file.path(indir1, "figures"))
+indir1 <- "C:/Users/valky/OneDrive - UC San Diego/Documents"
 
 metrics <- c("mean_wf_pm", "mean_daily_peak_week", "non_zero_day",       
              "weeks_gt_5", "smoke_waves", "non_wf_pm")
