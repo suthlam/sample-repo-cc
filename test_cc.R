@@ -11,8 +11,7 @@ library(ggplot2)
 library(cowplot)
 library(RColorBrewer)
 
-indir1 <- "C:/Users/valky/OneDrive - UC San Diego/Documents/PostDoc/Tarik_Benmarhnia/Mis/lara_schwarz/long-term-wildfire-mortality"
-# indir1 <- "C:/Users/valky/Documents/PostDoc/Tarik_Benmarhnia/Mis/lara_schwarz/long-term-wildfire-mortality"
+indir1 <- "C:/Users/valky/OneDrive - UC San Diego/Documents/PostDoc/Tarik_Benmarhnia/Mis"
 
 if (!dir.exists(file.path(indir1, "figures"))) dir.create(file.path(indir1, "figures"))
 
